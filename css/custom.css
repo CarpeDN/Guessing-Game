@@ -9,3 +9,21 @@
 #number-history {
 	max-width: 200px;
 }
+
+.btn {
+	opacity: .5;
+}
+
+.input-group {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 10px 10px 10px;
+	font-size: 30px;
+	text-align: center;
+}
+
+#play-area {
+	background-color: ;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
