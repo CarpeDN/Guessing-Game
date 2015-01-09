@@ -11,21 +11,34 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>0-100 Guessing Game</h1>
+        <h1>1-100 Guessing Game</h1>
         <h2>CarpeDN</h2>
         <p class="lead">Can you guess what the number is in 5 tries or less?!</p>
+        <img id="win" src="http://s1.static.gotsmile.net/images/2012/05/04/epic-win-meme_133614103669.jpg">
+        <img id="lose" src="http://rnrparenting.ca/wp-content/uploads/2012/07/Boy-losing-at-baseball.jpg">
       </div>
     </div>
 
     <!--Input Field-->
     <div class="container" id="play-area">
-      <h1 id="message-box">Input Number between 0 - 100</h1>
+      <h1 id="message-box">Input number between 1 - 100</h1>
       <form class="input-group">
-        <input id="number-input" type="text" name="numberInput" size="1">
+        <input id="number-input" type="texts" name="numberInput" size="1">
       </form>
+      <!--Remaining Attempt counter-->
+      <div class="container">
+        <form role="form">
+          <fieldset disabled>
+            <div class="rem-attempts">
+              <input type="text" id="disabledTextInput" class="form-control" placeholder="5 attempts left">
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
     
 
-    <!--Buttons-->
+      <!--Buttons-->
       <div class="container" id="submit-buttons">
         <div class="btn-group btn-group-justified" role="group" aria-label="...">
 
@@ -43,13 +56,13 @@
         </div>
       </div>
     </div>
+
     <!--Number History-->
     <div class="container" id="number-history">
       <form role="form">
         <fieldset disabled>
           <div class="form-group">
-<!--             <label>1st Number</label>
-            <input type="text" id="disabledTextInput" class="form-control" placeholder="Take a shot!"> -->
+
           </div>
 
         </fieldset>

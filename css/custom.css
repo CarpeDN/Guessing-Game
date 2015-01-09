@@ -22,8 +22,28 @@
 	text-align: center;
 }
 
+.rem-attempts {
+	max-width: 125px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.form-group {
+	max-width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #play-area {
-	background-color: ;
-	padding-top: 10px;
 	padding-bottom: 10px; 
+}
+
+#win {
+	display: none;
+	height: 300px;
+	width: 300px;
+}
+#lose {
+	display: none;
+	height: 300px;	
+	width: 400px;
 }
