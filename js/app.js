@@ -1,6 +1,6 @@
 //new game variables
 var correctAnswer = Math.floor(100*Math.random()) + 1;
-alert("Correct Answer: " + correctAnswer);
+// alert("Correct Answer: " + correctAnswer);
 var storedGuesses = [];
 var remAttempts = 5;
 var label = 1;
